@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "log-parse"
+version = "0.1.0"
+description = "A log parser for the Python Intern assignment at VRV Security."
+authors = ["Siddhesh Agarwal <siddhesh.agarwal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.14.0"
+pydantic = "^2.10.2"
+rich = "^13.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
